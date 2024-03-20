@@ -1,0 +1,285 @@
+/* Resetting default margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+/* Styling for hyperlinks */
+a {
+    text-decoration: none;
+}
+
+/* Body styling with background image and overlay */
+body {
+    min-height: 100vh;
+    background: url('./../Images/background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+/* Header styling, fixed position, and transparent background with blur effect */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 10px 50px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-bottom: 2px solid white;
+}
+
+/* Navbar styling */
+.navbar {
+    justify-content: space-between;
+}
+
+/* Logo styling */
+.logo {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* Logo hover effect */
+.logo:hover {
+    color: gold;
+}
+
+/* Navbar link styling */
+.navbar a {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+/* Navbar link hover effect */
+.navbar a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/* User lock icon styling */
+.user-lock {
+    background-color: white;
+    border-radius: 50%;
+}
+
+/* Wrapper styling for centering content */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login form styling */
+.login-form {
+    margin-top: 60px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    padding: 100px;
+    border: 1px solid white;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+/* Input box styling */
+.wrapper .input-box {
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+/* Heading 1 styling */
+.wrapper h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* Input styling */
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    padding-left: 10px;
+}
+
+/* Input placeholder styling */
+.input-box input::placeholder {
+    color: white;
+}
+
+/* Icon inside input box styling */
+.input-box img {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+/* Styling for remember-forgot section */
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Custom button styling */
+.custom-btn {
+    color: black;
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+/* Spacing elements */
+.space {
+    height: 20px;
+}
+
+.space-input {
+    height: 10px;
+}
+
+/* Register link styling */
+.register-link {
+    padding-top: 20px;
+}
+
+/* Register link hover effect */
+.register-link a {
+    color: aqua;
+}
+
+/* Register link hover effect */
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+/* Homepage body styling */
+.homepage-body {
+    padding-top: 100px;
+    margin-left: 50px;
+}
+
+/* Homepage content grid styling */
+.homepage-content {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+/* Select box styling */
+.select-box {
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Hidden input styling within the select box */
+input .hidden-input {
+    height: 0px;
+}
+
+/* Styling for select space */
+.select-space {
+    position: relative;
+}
+
+/* Styling for divisions-box and orgUnits-box */
+.divisions-box,
+.orgUnits-box {
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+    width: 250px;
+}
+
+/* Left and right side styling for content sections */
+.leftSide {
+    border-right: 2px solid white;
+    margin-right: 50px;
+}
+
+.rightSide {
+    margin-left: 20px;
+    margin-right: 60px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+}
+
+/* Button styling within leftSide section */
+.leftSide .btn {
+    width: 100px;
+    height: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Admin container grid styling */
+.admin-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding-top: 100px;
+    margin-left: 50px;
+}
+
+/* Admin left and right side styling */
+.admin-leftside {
+    border-right: 2px solid white;
+    height: 650px;
+    margin-right: 50px;
+}
+
+.admin-rightside {
+    margin-left: 20px;
+}
+
+/* Admin submit button styling */
+.admin-Submit-Btn {
+    margin-left: 100px;
+    height: 50px;
+    width: 100px;
+}
+
+/* Admin update role button styling */
+.admin-UpdateRole-Btn {
+    margin-left: 25px;
+    height: 50px;
+    width: 150px;
+}
+
+/* AdminForms section styling */
+.AdminForms {
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 100px;
+}
+/* Button styling within adminForm-right */
+.adminForm-rightside .btn {
+    width: 100px;
+    height: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+}
